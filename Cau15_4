@@ -1,0 +1,7 @@
+print(" Sinh vien: Dau Van Khanh Duc")
+print(" MSV : 245752021610021")
+s = input("Nhap chuoi: ")
+ds = s.split()
+ds.sort()
+for tu in ds:
+    print(tu)
